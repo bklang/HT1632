@@ -26,7 +26,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <math.h>
-#include <wiring.h>
+#include <arduino.h>
 #include "HardwareSerial.h"
 #include <MatrixDisplay.h>
 
