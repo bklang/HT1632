@@ -1,7 +1,7 @@
 #include <avr/pgmspace.h>
 // copied from http://heim.ifi.uio.no/haakoh/avr/a
 const int font_count = 47;
-unsigned char PROGMEM myfont[47][5] = {
+const unsigned char PROGMEM myfont[47][5] = {
   {0, 0, 0, 0, 0}, // space!
   {0x3f, 0x48, 0x48, 0x48, 0x3f}, // A
   {0x7f, 0x49, 0x49, 0x49, 0x36},
